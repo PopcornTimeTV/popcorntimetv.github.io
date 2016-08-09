@@ -1,0 +1,18 @@
+Package: com.mourke.popcorntime.ios
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: mourke <popcorntimetvos@outlook.com>
+Depends: firmware(>= 9.0)
+Filename: ./debs/com.mourke.popcorntime.ios_0.0.1_iphoneos-arm.deb
+Size: 39047340
+MD5sum: 68393594ed196b84df09b83ea39af8ba
+SHA1: b24b2ef208244a7d713627077647a90ed039b5e4
+SHA256: e4c89411338b30faf9e5f7508181feb3154797ef3f03e203ca3581d38e62bf42
+Section: Applications
+Homepage: http://popcorntime.sh
+Description: An iOS application to torrent movies and tv shows for streaming.
+Author: mourke <popcorntimetvos@outlook.com>
+Depiction: https://popcorntimetv.github.io/depiction
+Icon: file:///Applications/Cydia.app/Sections/Entertainment.png
+Name: Popcorn Time
+
