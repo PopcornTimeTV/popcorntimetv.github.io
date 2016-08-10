@@ -1,12 +1,12 @@
-Package: com.mourke.popcorntime.ios
+Package: com.popcorntimetv.popcorntime.ios
 Name: Popcorn Time
-Version: 0.0.1
+Version: 0.2
 Architecture: iphoneos-arm
 Description: An iOS application to torrent movies and tv shows for streaming.
 Homepage: http://popcorntime.sh
-Maintainer: mourke <popcorntimetvos@outlook.com>
+Maintainer: PopcornTimeTV <popcorn@time.tv>
 Depiction: https://popcorntimetv.github.io/depiction
-Author: mourke <popcorntimetvos@outlook.com>
+Author: PopcornTimeTV <popcorn@time.tv>
 Section: Applications
 Depends: firmware(>= 9.0)
 Icon: file:///Applications/Cydia.app/Sections/Entertainment.png
