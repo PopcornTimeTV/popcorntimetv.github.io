@@ -16,7 +16,7 @@ fi
 CURRENT_DIR=$(pwd)
 
 cd ~/Documents/PopcornTimeiOS/
-xcodebuild -workspace "PopcornTime.xcworkspace" -scheme "PopcornTime" -sdk "iphonesimulator9.3" -destination "platform=iOS Simulator,OS=9.3,name=iPhone 6s" -configuration Release ONLY_ACTIVE_ARCH=NO build
+xcodebuild -workspace "PopcornTime.xcworkspace" -scheme "PopcornTime" -sdk "iphoneos9.3" -configuration Release ONLY_ACTIVE_ARCH=NO build
 
 if [[ $? == 0 ]]; then
   echo "Success"
@@ -26,7 +26,7 @@ else
   exit
 fi
 
-cd ~/Library/Developer/Xcode/DerivedData/PopcornTime-*/Build/Products/Release-iphonesimulator/
+cd ~/Library/Developer/Xcode/DerivedData/PopcornTime-*/Build/Products/Release-iphoneos/
 chmod 755 Popcorn\ Time.app/Popcorn\ Time
 ldid -S Popcorn\ Time.app/Popcorn\ Time
 
