@@ -1,6 +1,6 @@
 Package: com.popcorntimetv.popcorntime.ios
 Name: Popcorn Time
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: An iOS application to torrent movies and tv shows for streaming.
 Homepage: http://popcorntime.sh
