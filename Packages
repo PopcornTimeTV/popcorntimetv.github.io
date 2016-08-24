@@ -1,13 +1,13 @@
 Package: com.popcorntimetv.popcorntime.ios
-Version: 0.9
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: PopcornTimeTV <popcorn@time.tv>
 Depends: firmware(>= 9.0)
-Filename: ./debs/com.popcorntimetv.popcorntime.ios_0.9_iphoneos-arm.deb
-Size: 43348994
-MD5sum: ad5fddb6ad0c78d80fc9f4a7fc10d8af
-SHA1: 454eddb95c8f26d3a9996b156e9478953a63289f
-SHA256: eee167ec8778c0229f5f498b1cae5684a7338e1d7092f090c70128145fa95ee8
+Filename: ./debs/com.popcorntimetv.popcorntime.ios_1.0_iphoneos-arm.deb
+Size: 43484122
+MD5sum: 732f911b26a9bbe2143b8a70330ed108
+SHA1: d279b3530d6b9e1175afcfba49b3292325564c4f
+SHA256: 3244afb280d9e97629aa17bec323e045821dab047e14750b09a3871ed2167986
 Section: Applications
 Homepage: http://popcorntime.sh
 Description: An iOS application to torrent movies and tv shows for streaming.
