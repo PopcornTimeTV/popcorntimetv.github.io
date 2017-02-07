@@ -1,47 +1,67 @@
 #!/bin/bash
 
+error() {
+  local red='\033[0;31m'
+  local normal="\033[0m"
+  echo -e "${red} $1 ${normal}"
+}
+
+info() {
+     local green="\033[1;32m"
+     local normal="\033[0m"
+     echo -e "[${green}info${normal}] $1"
+}
+
+
+
+if [ "$1" != "" ]; then
+    PROJECT_DIR="$1"
+else
+    error "Must pass the directory of the project"
+    exit
+fi
+
 PLIST=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/SDKSettings.plist
 AD_HOC_CODE_SIGNING_ALLOWED=$(/usr/libexec/PlistBuddy -c "Print :DefaultProperties:AD_HOC_CODE_SIGNING_ALLOWED" $PLIST)
 if [ $AD_HOC_CODE_SIGNING_ALLOWED == "NO" ]; then
-  echo "Enabling AD_HOC_CODE_SIGN"
+  info "Enabling AD_HOC_CODE_SIGN"
   /usr/libexec/PlistBuddy -c "Set :DefaultProperties:AD_HOC_CODE_SIGNING_ALLOWED YES" $PLIST
 fi
 
 CODE_SIGNING_REQUIRED=$(/usr/libexec/PlistBuddy -c "Print :DefaultProperties:CODE_SIGNING_REQUIRED" $PLIST)
 if [ $CODE_SIGNING_REQUIRED == "YES" ]; then
-  echo "Disabling manditory code signing"
+  info "Disabling manditory code signing"
   /usr/libexec/PlistBuddy -c "Set :DefaultProperties:CODE_SIGNING_REQUIRED NO" $PLIST
 fi
 
 CURRENT_DIR=$(pwd)
 
-cd ~/Documents/PopcornTimeiOS/
-xcodebuild -workspace "PopcornTime.xcworkspace" -scheme "PopcornTime" -sdk "iphoneos9.3" -configuration Release ONLY_ACTIVE_ARCH=NO build
+cd $PROJECT_DIR
+xcodebuild -workspace "PopcornTime.xcworkspace" -scheme "PopcornTimeiOS" -sdk "iphoneos10.2" -configuration Release CODE_SIGN_IDENTITY="" archive -archivePath $CURRENT_DIR/PopcornTime.xcarchive
 
 if [[ $? == 0 ]]; then
-  echo "Success"
+  info "Build Succeeded"
 else
-  red=`tput setaf 1`
-  echo "${red} Failed"
+  error "Build Failed"
   exit
 fi
 
-cd ~/Library/Developer/Xcode/DerivedData/PopcornTime-*/Build/Products/Release-iphoneos/
-chmod 755 Popcorn\ Time.app/Popcorn\ Time
-ldid -S Popcorn\ Time.app/Popcorn\ Time
+cd $CURRENT_DIR/PopcornTime.xcarchive/Products/Applications
+chmod 755 PopcornTime.app/PopcornTime
+ldid -S PopcornTime.app/PopcornTime
 
-cp -r Popcorn\ Time.app $CURRENT_DIR/projects/Popcorn\ Time/Applications
+cp -r PopcornTime.app $CURRENT_DIR/projects/Popcorn\ Time/Applications
 
 cd $CURRENT_DIR
 
 ./update.sh
 
 if [ $AD_HOC_CODE_SIGNING_ALLOWED == "YES" ]; then
-  echo "Re-Disabling AD_HOC_CODE_SIGN"
+  info "Re-Disabling AD_HOC_CODE_SIGN"
   /usr/libexec/PlistBuddy -c "Set :DefaultProperties:AD_HOC_CODE_SIGNING_ALLOWED NO" $PLIST
 fi
 
 if [ $CODE_SIGNING_REQUIRED == "NO" ]; then
-  echo "Re-Enabling manditory code signing"
+  info "Re-Enabling manditory code signing"
   /usr/libexec/PlistBuddy -c "Set :DefaultProperties:CODE_SIGNING_REQUIRED YES" $PLIST
 fi
