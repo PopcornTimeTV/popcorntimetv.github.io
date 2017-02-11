@@ -8,5 +8,5 @@ Maintainer: PopcornTimeTV <popcorn@time.tv>
 Depiction: https://popcorntimetv.github.io/depiction
 Author: PopcornTimeTV <popcorn@time.tv>
 Section: Applications
-Depends: firmware(>= 9.0)
+Depends: net.angelxwind.appsyncunified(>= 5.8), firmware(>= 9.0)
 Icon: file:///Applications/Cydia.app/Sections/Entertainment.png

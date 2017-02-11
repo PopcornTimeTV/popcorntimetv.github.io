@@ -37,7 +37,7 @@ fi
 CURRENT_DIR=$(pwd)
 
 cd $PROJECT_DIR
-xcodebuild -workspace "PopcornTime.xcworkspace" -scheme "PopcornTimeiOS" -sdk "iphoneos10.2" -configuration Release CODE_SIGN_IDENTITY="" archive -archivePath $CURRENT_DIR/PopcornTime.xcarchive
+xcodebuild -workspace "PopcornTime.xcworkspace" -scheme "PopcornTimeiOS" -sdk "iphoneos10.2" -configuration Release CODE_SIGN_IDENTITY="-" archive -archivePath $CURRENT_DIR/PopcornTime.xcarchive
 
 if [[ $? == 0 ]]; then
   info "Build Succeeded"
