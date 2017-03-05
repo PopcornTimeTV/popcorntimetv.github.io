@@ -8,13 +8,13 @@
 		<data>
 		XRYKCSc8u4a42bBrkOI3zZffJmM=
 		</data>
-		<key>Headers/FloatRatingView-umbrella.h</key>
+		<key>Headers/FloatRatingView-iOS-umbrella.h</key>
 		<data>
 		eL2e8e89mMkxjyHkHTmcAphPxFA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AakI0ZhCwUCbQXS94NARM3HXy04=
+		fK8zRiMnfoDU4xBAupOhxMdNEjM=
 		</data>
 		<key>Modules/FloatRatingView.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/FloatRatingView.swiftmodule/arm.swiftmodule</key>
 		<data>
-		xdI2ZA1qZOTEdY/mY4YWZ8caQeM=
+		6VzQx1eAOG6+mVWHOw1XFRv0fds=
 		</data>
 		<key>Modules/FloatRatingView.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/FloatRatingView.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		KNPhKu5aExBK9ckxXZiF4Vub5gU=
+		2usQpT876yb+LjXspnUqGvdXp9o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		d2Ht16zMG2w9OftSdMsjp0643vw=
+		iVP+DD223aDdGCpL27ZHMphNglc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,7 +50,7 @@
 			EME0MgskPNsB4pQSSp2LuWogWxiosejuYkGBeYbrVms=
 			</data>
 		</dict>
-		<key>Headers/FloatRatingView-umbrella.h</key>
+		<key>Headers/FloatRatingView-iOS-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -76,11 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xdI2ZA1qZOTEdY/mY4YWZ8caQeM=
+			6VzQx1eAOG6+mVWHOw1XFRv0fds=
 			</data>
 			<key>hash2</key>
 			<data>
-			nK4F+ySFgHrVH7bb6jBd/iSabQSDU9TtfTlDJARBXe8=
+			h1ILlH4gMr2UwkzzcoEmdg3ldimrONTO09suEvYyqgc=
 			</data>
 		</dict>
 		<key>Modules/FloatRatingView.swiftmodule/arm64.swiftdoc</key>
@@ -98,22 +98,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KNPhKu5aExBK9ckxXZiF4Vub5gU=
+			2usQpT876yb+LjXspnUqGvdXp9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			H8Q+kOsODc6khOOfEqLOlP+lUan6+zo1uwKNVQiJdUQ=
+			95XaJNP6hrfrXc0QYgWEyPHiCOf4dArJV8iLRUrmSuw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d2Ht16zMG2w9OftSdMsjp0643vw=
+			iVP+DD223aDdGCpL27ZHMphNglc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZV8pkHpOy/lmM5BMWj+LbgCjQ4Wldk4eXqQSfeKMDdI=
+			gbacsylTfkXqyRdiEgvoyrzZRGwLzDCI8+Dn8KdEjbM=
 			</data>
 		</dict>
 	</dict>

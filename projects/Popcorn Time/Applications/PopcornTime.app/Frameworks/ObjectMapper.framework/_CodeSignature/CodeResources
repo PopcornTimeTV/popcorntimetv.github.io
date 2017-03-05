@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IIZtb7OSwq3mGECXy1LIMoqHjGE=
+		Ybfrvy0iMTH4qhIEcttS7LuLPpg=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm.swiftdoc</key>
 		<data>
-		jCe5CS8dQqEgtKaQZD9+QuAvKTE=
+		10XiwK+hwbJn1iUYVMGyeTmrUqc=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm.swiftmodule</key>
 		<data>
-		wh0f2sIom6g9EnDohLh9byO/5pM=
+		HNK4w8u1x5W2Kclur1u09tEXoSk=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		3jrNrZpYiQhkfzygKxTP2pgIiLM=
+		9KBoZAXzMxjp9BSQmS5czVO6JJI=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ko6zodTQO8fwU7tTM7Eno2wrZuc=
+		6perxN3TDGJrGL1/QVmtQM6STTE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,44 +65,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jCe5CS8dQqEgtKaQZD9+QuAvKTE=
+			10XiwK+hwbJn1iUYVMGyeTmrUqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			00NzkeOACEwZqXkvLxQfOf3ORohaGR4XgAgwIVzfAsA=
+			NhwN8Zbxv+l60X5zEtyuconb7Oj8VO1KzSbfZyCIjSE=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wh0f2sIom6g9EnDohLh9byO/5pM=
+			HNK4w8u1x5W2Kclur1u09tEXoSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZWIIcf0avBoPQGpPx9WVQT0v4YEzpvdfuKHKh7Mcn+w=
+			ht9WMRUnef7pG8zpf7D9z8BzBlOjuGmVG/hM41SvXko=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3jrNrZpYiQhkfzygKxTP2pgIiLM=
+			9KBoZAXzMxjp9BSQmS5czVO6JJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sb4u9yf8BKVt2qyyszi672QqWWjANgwlB3xzzXFGWl0=
+			hWAeXVIhG1tETMBpMsLC4j2PR694PrCJeTv+QiWxgvg=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ko6zodTQO8fwU7tTM7Eno2wrZuc=
+			6perxN3TDGJrGL1/QVmtQM6STTE=
 			</data>
 			<key>hash2</key>
 			<data>
-			YJtzM94I2P1fnDJq2XFfxY8lHQJlY8TVNuLQgd7H8FA=
+			XzfCb1QqkIysFbJg/Jn0cSBHRHEC8Mk6UuenV/0YZmE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

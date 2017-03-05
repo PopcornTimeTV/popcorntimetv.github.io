@@ -4,13 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Reachability-umbrella.h</key>
+		<key>Headers/Reachability-iOS-umbrella.h</key>
 		<data>
 		Wj4IT4j0ydpnUgaJKRZbHnyVL7c=
 		</data>
 		<key>Headers/Reachability.h</key>
 		<data>
-		f4E02VNfSS4viOS+9uEnN64dfYg=
+		YxAMihhHHGEkk6Z86qlfsu1N8L4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,12 +18,12 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Exy7cS1ldmsvfrVr/mu32pTyE+g=
+		p/+6w4NN4zFfYh4A8wBSMdk4Ypg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Reachability-umbrella.h</key>
+		<key>Headers/Reachability-iOS-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -38,22 +38,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f4E02VNfSS4viOS+9uEnN64dfYg=
+			YxAMihhHHGEkk6Z86qlfsu1N8L4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nIHNbMh2yGV7cuGi0GxZCwILNBwABNehMysJS41jH3w=
+			IYjmAqudc1+9ftMlE6d0r4LvZcvjdWDDFe7I6ihyvt0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Exy7cS1ldmsvfrVr/mu32pTyE+g=
+			p/+6w4NN4zFfYh4A8wBSMdk4Ypg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PYoRuQ0hJt77RpiJsWjDc8dLmux9jXXB07HGzayZNYs=
+			oObsQYCS2glnA5ahOkMsGM/WaDss6Aqu9cZFRY8xD6Q=
 			</data>
 		</dict>
 	</dict>
