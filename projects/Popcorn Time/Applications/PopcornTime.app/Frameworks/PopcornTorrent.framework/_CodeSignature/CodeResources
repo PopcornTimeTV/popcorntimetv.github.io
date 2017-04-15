@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Base.lproj/Localizable.strings</key>
+		<data>
+		RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+		</data>
 		<key>Headers/PTTorrentStreamer.h</key>
 		<data>
-		nyajiiRfHnMfRUBk6tXceEb+Lv8=
+		0Uzj6cyQlZXVFeK8NJICBFgDpDI=
 		</data>
 		<key>Headers/PopcornTorrent.h</key>
 		<data>
@@ -14,24 +18,44 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cmb/UBZysG6rKaLE4YnkQ3dbaco=
+		0kwSwutjPy3KA8gEqDqctoWqfVQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		O4CGwtaXROTrrPi3+Y1OXKHQObY=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Base.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+			</data>
+			<key>hash2</key>
+			<data>
+			zflW4lx5t4zJSRYbrObkCxllhDgz3jxoHrPa04+rxiU=
+			</data>
+		</dict>
 		<key>Headers/PTTorrentStreamer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nyajiiRfHnMfRUBk6tXceEb+Lv8=
+			0Uzj6cyQlZXVFeK8NJICBFgDpDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			oC8XXmBGdbs03CsHaz+RGdAraWnBvCuV+M+RCqix798=
+			aNwfUK2wGLdL2faDpiMHlKQN1iG5BgW+7R474tmxv7E=
 			</data>
 		</dict>
 		<key>Headers/PopcornTorrent.h</key>
@@ -55,6 +79,19 @@
 			<data>
 			7BZGTTHYNY7bsq0WjDTqAV6xXjsR97r7dyncdX4DMnE=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+			</data>
+			<key>hash2</key>
+			<data>
+			zflW4lx5t4zJSRYbrObkCxllhDgz3jxoHrPa04+rxiU=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
