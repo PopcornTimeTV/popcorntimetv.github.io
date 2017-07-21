@@ -6,29 +6,129 @@
 	<dict>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
-		RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+		2g0VZR9pgZa52jyY5/YAEnX8k5I=
+		</data>
+		<key>Headers/PTSize.h</key>
+		<data>
+		CoKGTzFW6IDjExehNQHTtMWHF54=
+		</data>
+		<key>Headers/PTTorrentDownload.h</key>
+		<data>
+		uoBJQRP/mUAq5l/SEoQu9gft4tc=
+		</data>
+		<key>Headers/PTTorrentDownloadManager.h</key>
+		<data>
+		47ZtwoG2Oz2YeMIqFqjT5G4hY38=
+		</data>
+		<key>Headers/PTTorrentDownloadManagerListener.h</key>
+		<data>
+		s/OMet/lZlKHu43TVOqVKIXK/0c=
+		</data>
+		<key>Headers/PTTorrentDownloadStatus.h</key>
+		<data>
+		kmEiJWZ4KjiGATVzWDkVkg82j98=
+		</data>
+		<key>Headers/PTTorrentStatus.h</key>
+		<data>
+		YLJMA8bszMeO4ezjwjSyxzhgBa0=
 		</data>
 		<key>Headers/PTTorrentStreamer.h</key>
 		<data>
-		0Uzj6cyQlZXVFeK8NJICBFgDpDI=
+		0qL8Pi+mPPyBjQv7JoEpvD3hxK8=
 		</data>
 		<key>Headers/PopcornTorrent.h</key>
 		<data>
-		84JN7TefJPnY5aODHS1MGuiYQEI=
+		Bs8y5e5h93fnegFuMWYzUsEaFww=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0kwSwutjPy3KA8gEqDqctoWqfVQ=
+		bsd5wo4/bV9MZyKlpeJSFwpSD/8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		O4CGwtaXROTrrPi3+Y1OXKHQObY=
 		</data>
+		<key>PrivateHeaders/PTTorrentStreamer+Protected.h</key>
+		<data>
+		jBPhA/Gb667qXSKDPhVz3dNsoB4=
+		</data>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2mYvfbFA77+qLG/oJ77G1A4iVis=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ar.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+			2g0VZR9pgZa52jyY5/YAEnX8k5I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UPcykRCCjZE8u/fn1y3iVsxeCBI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zD4K4wpfwIpHTj2Hbr5GYpwYozM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fhrkpfX8YdMIPZeo7oE5C5kNNM0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -40,33 +140,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+			2g0VZR9pgZa52jyY5/YAEnX8k5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			zflW4lx5t4zJSRYbrObkCxllhDgz3jxoHrPa04+rxiU=
+			Ipqhulk2kHDzqGVDhq4O8LYZcXr0eE3QR1E5nzjmtwI=
+			</data>
+		</dict>
+		<key>Headers/PTSize.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CoKGTzFW6IDjExehNQHTtMWHF54=
+			</data>
+			<key>hash2</key>
+			<data>
+			lGKIXi41KRP2nIaWxrvxxOtqzJfx5eJx22bOnKeWw+s=
+			</data>
+		</dict>
+		<key>Headers/PTTorrentDownload.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uoBJQRP/mUAq5l/SEoQu9gft4tc=
+			</data>
+			<key>hash2</key>
+			<data>
+			YnQKgmuGfB+Ra4KBno+/eFkdu5xYB704fh7IwNQrL1A=
+			</data>
+		</dict>
+		<key>Headers/PTTorrentDownloadManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			47ZtwoG2Oz2YeMIqFqjT5G4hY38=
+			</data>
+			<key>hash2</key>
+			<data>
+			Uvl/E4e2M2wU4g87YIZ80kojnv4mftiFfhjsXfqNTY0=
+			</data>
+		</dict>
+		<key>Headers/PTTorrentDownloadManagerListener.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s/OMet/lZlKHu43TVOqVKIXK/0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			HlUa33pcV6YLeS1U1TVNHHbTpcwautHsKn4AKM5JhFA=
+			</data>
+		</dict>
+		<key>Headers/PTTorrentDownloadStatus.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kmEiJWZ4KjiGATVzWDkVkg82j98=
+			</data>
+			<key>hash2</key>
+			<data>
+			bGcGbJeRto+uoArn+GZjH349gOox/hS9UebQkoekLWs=
+			</data>
+		</dict>
+		<key>Headers/PTTorrentStatus.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YLJMA8bszMeO4ezjwjSyxzhgBa0=
+			</data>
+			<key>hash2</key>
+			<data>
+			imFP9qUSjY50eIMFENSb2dqPVnA2Ue8bl7lX8L4v5n4=
 			</data>
 		</dict>
 		<key>Headers/PTTorrentStreamer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Uzj6cyQlZXVFeK8NJICBFgDpDI=
+			0qL8Pi+mPPyBjQv7JoEpvD3hxK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			aNwfUK2wGLdL2faDpiMHlKQN1iG5BgW+7R474tmxv7E=
+			UqLnM8BDUdLEP99nIjNmsk3y0KhVvIMILtICaYMhqko=
 			</data>
 		</dict>
 		<key>Headers/PopcornTorrent.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			84JN7TefJPnY5aODHS1MGuiYQEI=
+			Bs8y5e5h93fnegFuMWYzUsEaFww=
 			</data>
 			<key>hash2</key>
 			<data>
-			wlTxxcU1ucaZX8xr9ZxIS4t+n3tCIXxhiH3SP/2P3Sw=
+			rAJVNy9m6NiA/eD/UKfb5hVc6mfZn5awFVklt38YIVc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -80,15 +246,130 @@
 			7BZGTTHYNY7bsq0WjDTqAV6xXjsR97r7dyncdX4DMnE=
 			</data>
 		</dict>
+		<key>PrivateHeaders/PTTorrentStreamer+Protected.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jBPhA/Gb667qXSKDPhVz3dNsoB4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KCQmy03LYrr3ocHMjywoLUNTGkUnVkL/yPwTkkG5r34=
+			</data>
+		</dict>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2mYvfbFA77+qLG/oJ77G1A4iVis=
+			</data>
+			<key>hash2</key>
+			<data>
+			D0wi80Ovs0j53RbZzQHxBq5PSwteXj7knVBH++nuncw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ar.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RQcRMnfdCDaJ9PbNQ0Qie4JszdY=
+			2g0VZR9pgZa52jyY5/YAEnX8k5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			zflW4lx5t4zJSRYbrObkCxllhDgz3jxoHrPa04+rxiU=
+			Ipqhulk2kHDzqGVDhq4O8LYZcXr0eE3QR1E5nzjmtwI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UPcykRCCjZE8u/fn1y3iVsxeCBI=
+			</data>
+			<key>hash2</key>
+			<data>
+			B9ldyz7Yo186jL8BLIOgpRIwUnawLrGKB+bkehn5UZY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zD4K4wpfwIpHTj2Hbr5GYpwYozM=
+			</data>
+			<key>hash2</key>
+			<data>
+			KraecBw+a841EErocjbyEni8PiTfl/4CuUSRkVb68Co=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fhrkpfX8YdMIPZeo7oE5C5kNNM0=
+			</data>
+			<key>hash2</key>
+			<data>
+			jw0R43ARwWitk04tr0o5D9HKYgXinxfMBSsAaliWNYU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/iOSPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
 			</data>
 			<key>optional</key>
 			<true/>
