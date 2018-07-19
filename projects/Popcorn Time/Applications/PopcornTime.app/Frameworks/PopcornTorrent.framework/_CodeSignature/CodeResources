@@ -42,7 +42,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WLE7Fy6/4/bkb/5VmLtiGc5uSvE=
+		c43P9lsh9j57o93lUpSmnQGuF3s=
+		</data>
+		<key>Makefile.am</key>
+		<data>
+		Pu90OfFzPl0kgWGrHKd3LM85wv8=
+		</data>
+		<key>Makefile.in</key>
+		<data>
+		iktDg5kRk7U7Me6m/Gk1G22zG/4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +58,7 @@
 		</data>
 		<key>PrivateHeaders/PTTorrentStreamer+Protected.h</key>
 		<data>
-		jBPhA/Gb667qXSKDPhVz3dNsoB4=
+		YUnUtNNyttgJm3ZjopDausUR/7w=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -235,6 +243,28 @@
 			rAJVNy9m6NiA/eD/UKfb5hVc6mfZn5awFVklt38YIVc=
 			</data>
 		</dict>
+		<key>Makefile.am</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pu90OfFzPl0kgWGrHKd3LM85wv8=
+			</data>
+			<key>hash2</key>
+			<data>
+			R/mB8E8ip7IJLtfhm+8KEa4QrWQtBazGwUzoMxx67NM=
+			</data>
+		</dict>
+		<key>Makefile.in</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iktDg5kRk7U7Me6m/Gk1G22zG/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			EmscRGGcYwefblM2qoR/dz+khphVXBmMGor/ESjKAlA=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -250,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jBPhA/Gb667qXSKDPhVz3dNsoB4=
+			YUnUtNNyttgJm3ZjopDausUR/7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			KCQmy03LYrr3ocHMjywoLUNTGkUnVkL/yPwTkkG5r34=
+			3AXxBC00mjWsKQVS87lXvgV1wsFb9DQNhjTtptH/i7M=
 			</data>
 		</dict>
 		<key>ar.lproj/Localizable.strings</key>
