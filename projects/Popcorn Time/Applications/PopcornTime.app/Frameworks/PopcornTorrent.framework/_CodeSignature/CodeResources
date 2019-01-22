@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/PTTorrentStreamer.h</key>
 		<data>
-		0qL8Pi+mPPyBjQv7JoEpvD3hxK8=
+		UKPJ8eOgQ4PW2suj2MsA6RG7NV4=
 		</data>
 		<key>Headers/PopcornTorrent.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c43P9lsh9j57o93lUpSmnQGuF3s=
+		MBzL5uRNqYcyK8nPNgsu6Kqr5wQ=
 		</data>
 		<key>Makefile.am</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>PrivateHeaders/PTTorrentStreamer+Protected.h</key>
 		<data>
-		YUnUtNNyttgJm3ZjopDausUR/7w=
+		rDuM+yaa0Cal1gJRvcGbbRPCQL4=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -225,11 +225,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0qL8Pi+mPPyBjQv7JoEpvD3hxK8=
+			UKPJ8eOgQ4PW2suj2MsA6RG7NV4=
 			</data>
 			<key>hash2</key>
 			<data>
-			UqLnM8BDUdLEP99nIjNmsk3y0KhVvIMILtICaYMhqko=
+			JOVffG13evtG4PKdW2W5Ld1GRalX/gsw4bZ4XbKJG/M=
 			</data>
 		</dict>
 		<key>Headers/PopcornTorrent.h</key>
@@ -280,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YUnUtNNyttgJm3ZjopDausUR/7w=
+			rDuM+yaa0Cal1gJRvcGbbRPCQL4=
 			</data>
 			<key>hash2</key>
 			<data>
-			3AXxBC00mjWsKQVS87lXvgV1wsFb9DQNhjTtptH/i7M=
+			Um33e7GVIHLCcncsH8j6sgUFbjwOEZWXnoTTe/Pk6nc=
 			</data>
 		</dict>
 		<key>ar.lproj/Localizable.strings</key>
@@ -407,7 +407,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -438,24 +438,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -491,13 +479,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
